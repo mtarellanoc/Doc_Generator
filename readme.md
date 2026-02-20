@@ -26,7 +26,7 @@ When script is run directly, it will read the most recently updated **.tex** or 
     *#place.playpy* takes integers as its arguments, from 1 up to the amount of of *recpy names* listed in the previously defined *#sort.playpy*
 
 
-Once the document has been read in, python will create a new document, **--Standalone.tex*, taking the body of the original **.tex* file and modifying based on the keywords listed above.
+Once the document has been read in, python will create a new document, **Standalone.tex**, taking the body of the original **.tex* file and modifying based on the keywords listed above.
 
 This new document is then compiled it twice. Once it has done so, it will remove *.log*, *.aux*, and *.out* files generated when compiled.
 
@@ -119,3 +119,4 @@ During compilation, the generator scans the document for any defined keywords an
 ### #sort.playpy<a id="sort.playpy_details"></a>
 
 ### #place.playpy<a id="place.playpy_details"></a>
+
